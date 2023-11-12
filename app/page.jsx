@@ -5,6 +5,8 @@ export default function Home() {
   return (
     <>
       <Link href="/split-vignette">Split Vignette</Link>
+      <br />
+      <Link href="/infinite-scroll">Infinite Scroll</Link>
     </>
   );
 }
