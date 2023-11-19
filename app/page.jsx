@@ -7,6 +7,10 @@ export default function Home() {
       <Link href="/split-vignette">Split Vignette</Link>
       <br />
       <Link href="/infinite-scroll">Infinite Scroll</Link>
+      <br />
+      <Link href="/mask-cursor-effect-mp">Mask Cursor Effect</Link>
+      <br />
+      <Link href="/framer-playground">Framer Playground</Link>
     </>
   );
 }
