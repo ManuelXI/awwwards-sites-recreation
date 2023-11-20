@@ -11,6 +11,8 @@ export default function Home() {
       <Link href="/mask-cursor-effect-mp">Mask Cursor Effect</Link>
       <br />
       <Link href="/framer-playground">Framer Playground</Link>
+      <br />
+      <Link href="/smooth-cards-parallax">Smooth Cards Parallax</Link>
     </>
   );
 }
