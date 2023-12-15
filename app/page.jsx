@@ -13,6 +13,8 @@ export default function Home() {
       <Link href="/framer-playground">Framer Playground</Link>
       <br />
       <Link href="/smooth-cards-parallax">Smooth Cards Parallax</Link>
+      <br />
+      <Link href="/text-gradient-opacity-on-scroll">Text Gradient Opacity Scroll</Link>
     </>
   );
 }

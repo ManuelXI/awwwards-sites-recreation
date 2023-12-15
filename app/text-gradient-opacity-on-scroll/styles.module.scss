@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Main";
+  src: url("../../public/text-gradient-opacity-on-scroll/PPPangaia-Bold.otf");
+}
+
+.main {
+  font-family: "Main";
+  background-color: rgb(24, 24, 24);
+  position: relative;
+//   min-height: 100vh;
+  //   margin: 0;
+  //   top: 0;
+//   display: flex;
+}
+
+// .main::after {
+//     content: '';
+//     position: absolute;
+//     top: 100%;
+//     height: 50%;
+//     background-color: red;
+// }
+
+.paragraph {
+  display: flex;
+  font-size: 60px;
+  line-height: 1;
+  padding: 40px;
+  color: white;
+  max-width: 1280px;
+  flex-wrap: wrap;
+  .word{
+    position: relative;
+    margin-right: 12px;
+    margin-top: 12px;
+    .shadow{
+      position: absolute;
+      opacity: 20%;
+    }
+  }
+}
