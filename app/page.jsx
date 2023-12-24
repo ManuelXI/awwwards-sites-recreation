@@ -15,6 +15,8 @@ export default function Home() {
       <Link href="/smooth-cards-parallax">Smooth Cards Parallax</Link>
       <br />
       <Link href="/text-gradient-opacity-on-scroll">Text Gradient Opacity Scroll</Link>
+      <br />
+      <Link href="/projects-gallery-hover">Projects Gallery On Hover</Link>
     </>
   );
 }
