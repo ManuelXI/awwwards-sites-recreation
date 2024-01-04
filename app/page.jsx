@@ -19,6 +19,8 @@ export default function Home() {
       <Link href="/projects-gallery-hover">Projects Gallery On Hover</Link>
       <br />
       <Link href="/smooth-parallax-scroll">Smooth Parallax Scroll</Link>
+      <br />
+      <Link href="/props-navigation-menu">Props Navigation Menu</Link>
     </>
   );
 }
