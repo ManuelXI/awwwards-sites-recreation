@@ -21,6 +21,8 @@ export default function Home() {
       <Link href="/smooth-parallax-scroll">Smooth Parallax Scroll</Link>
       <br />
       <Link href="/props-navigation-menu">Props Navigation Menu</Link>
+      <br />
+      <Link href="/parallax-scroll">Parallax Scroll</Link>
     </>
   );
 }
