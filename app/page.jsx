@@ -23,6 +23,8 @@ export default function Home() {
       <Link href="/props-navigation-menu">Props Navigation Menu</Link>
       <br />
       <Link href="/parallax-scroll">Parallax Scroll</Link>
+      <br />
+      <Link href="/scroll-parallax-animation"> Scroll Parallax Animation by Exo Ape</Link>
     </>
   );
 }

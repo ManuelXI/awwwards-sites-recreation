@@ -1,0 +1,33 @@
+.main {
+    margin: 0px;
+    background-color: rgb(24, 24, 24) !important;
+    margin-top: 50vh;
+    margin-bottom: 100vh;
+    // outline: 2px solid red;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.main::before {
+    content: '';
+    background-color: rgb(24, 24, 24) !important;
+    background-color: wheat;
+    position: absolute;
+    top: -50vh;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.main::after {
+    content: '';
+    background-color: rgb(24, 24, 24) !important;
+    background-color: wheat;
+    position: absolute;
+    top: 100%;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
