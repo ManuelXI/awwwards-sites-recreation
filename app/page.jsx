@@ -25,6 +25,8 @@ export default function Home() {
       <Link href="/parallax-scroll">Parallax Scroll</Link>
       <br />
       <Link href="/scroll-parallax-animation"> Scroll Parallax Animation by Exo Ape</Link>
+      <br />
+      <Link href="/agency-cartier-side-menu">Agency Cartier Side Menu</Link>
     </>
   );
 }
