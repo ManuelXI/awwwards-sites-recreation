@@ -1,8 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
 
 body::-webkit-scrollbar {
   width: 5px;
