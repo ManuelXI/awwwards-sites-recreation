@@ -29,6 +29,8 @@ export default function Home() {
       <Link href="/agency-cartier-side-menu">Agency Cartier Side Menu</Link>
       <br />
       <Link href="/text-parallax-animation">Text Parallax Animation</Link>
+      <br />
+      <Link href="/3d-video-slider">3D Video Slider</Link>
     </>
   );
 }

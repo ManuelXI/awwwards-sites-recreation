@@ -1,0 +1,97 @@
+.root {
+  font-family: "PP Neue Montreal" !important;
+  background-color: #000;
+  color: #6a6a6a;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  .slider {
+    position: absolute;
+    top: 5vh;
+    width: 100vw;
+    height: 100vh;
+    perspective: 175px;
+    perspective-origin: 50% 100%;
+    overflow: hidden;
+
+    .card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0px);
+      width: 65%;
+      height: 500px;
+      background: #000;
+      border-right: 1px solid #303030;
+      border-radius: 7px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #303030;
+        border-radius: 8px;
+        z-index: 2;
+      }
+
+      .card-info {
+        width: 100%;
+        padding: 0.5em 0.75em;
+        display: flex;
+        align-items: center;
+        background-color: #000;
+        z-index: 2;
+      }
+
+      .card-item {
+        flex: 1;
+
+        p {
+          font-size: 7px;
+          color: #6a6a6a;
+        }
+
+        &:nth-child(2) {
+          text-align: center;
+        }
+
+        &:nth-child(2) p {
+          font-size: 8px;
+          font-weight: 600;
+          color: #fff;
+        }
+        &:nth-child(3) {
+          text-align: right;
+        }
+      }
+      .video-player {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        div {
+          position: relative;
+          transform: scale(1.2);
+        }
+
+        @media (max-width: 900px) {
+          div {
+            transform: scale(3);
+          }
+        }
+      }
+    }
+  }
+}
